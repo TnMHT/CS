@@ -2,7 +2,9 @@ NOTES ON DATA STRUCTURES
 
 What is a Data Structure?
 Data Structures are collections of values. Each one is good for a specific use case.
-A way to hold and organize information.
+Ways to hold and organize information.
+Tradeoffs with different operations. IE. Traverse, Search, Sort, Assecc, Insert, Delete
+
 
 
 How Computers Store Data.
@@ -22,3 +24,14 @@ TREES
 TRIES
 GRAPHS
 HASH MAPS
+
+
+
+// ARRAYS
+
+Organizes items sequantially 
+STATIC ARRAYS = Fixed in size, declared before hand.
+DYNAMIC ARRAYS = Copy and rebuild arrays in a new location.
+
+Javascript automatically resizes arrays. Tradeoff is speed and efficiency.
+
