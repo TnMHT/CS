@@ -35,3 +35,5 @@ DYNAMIC ARRAYS = Copy and rebuild arrays in a new location.
 
 Javascript automatically resizes arrays. Tradeoff is speed and efficiency.
 
+Arrays are good for fat look ups, push and pops, ordered.
+Bad for slow inserts, slow deletes, and fized size if array is static
