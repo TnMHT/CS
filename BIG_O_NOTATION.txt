@@ -1,0 +1,55 @@
+NOTES ON BIG O NOTATION
+
+Big O asymptotic analysis
+
+Big O notation is a mathematical notation that describes the limiting behavior 
+of a function when the argument tends towards a particular value or infinity.
+
+Basically, it tells you how fast a function grows or declines.
+
+
+What is good code?
+1. Readable
+2. Scalable = Speed & Memory
+
+3 Pillars of Programming
+1. Readable
+2. Speed - Time Complexity
+3. Memory - Space Complexity
+
+When we grow bigger and bigger with our input, how much does our output slow down?
+Data Structures + Algorithms = Programs --- Choose the right ones!
+
+// Space Complexity
+Heap = Where we store variables and values that we assign
+Stack = Where we keep track of our function calls
+What causes space complexity?
+Variables, Data Structures, Function Calls, Allocations.
+
+//  O(n)
+Linear Time.
+N depends on the number of inputs.
+As the number elements increase the number of operations increase.
+
+//  O(1)
+Constant Time.
+No matter how many inputs there is the number of operatations is 1.
+
+//  O(n^2)
+Quadratic Time.
+Every time the number of elements increase, the number of operations increases significantly.
+
+// O(n!)
+Factorial Time.
+Nested Loop for every input. Terrible. Rare.
+
+
+// Simplify Big O
+Rule 1: Worst Case
+Rule 2: Remove Constants
+Rule 3: Different Terms for Inputs
+Rule 4: Drop Non Dominants
+
+
+
+
