@@ -1,0 +1,24 @@
+NOTES ON DATA STRUCTURES
+
+What is a Data Structure?
+Data Structures are collections of values. Each one is good for a specific use case.
+A way to hold and organize information.
+
+
+How Computers Store Data.
+CPU - BRAIN - Needs access to ram and storage
+RAM - RANDOM ACCESS MEMORY - Shelf that registers all the bits and bytes like an address book
+STORAGE - PERSISTANCE - Holds files
+
+
+
+DATA STRUCTURE TYPES
+
+ARRAYS
+STACKS
+QUEUES
+LINKED LISTS
+TREES
+TRIES
+GRAPHS
+HASH MAPS
