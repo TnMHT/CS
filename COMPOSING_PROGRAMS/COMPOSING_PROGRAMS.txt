@@ -1,0 +1,19 @@
+Notes on Composing Programs Text
+
+CHAPTER 1 - Building Abstractions with Functions
+
+// 1.1
+Statements describe Allocations
+Expressions describe Computations
+
+Functions encapsulate logic that manipulates data
+Objects seamlessly bundle together data and the logic that manipulates that data, in a way that manages the complexity of both.
+
+Guiding principles of debugging
+1. Test Incrementally 
+2. Isolate errors
+3. Check your assumptions
+4. Consult Others
+
+// 1.2
+
