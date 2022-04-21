@@ -17,7 +17,7 @@ What is good code?
 1. Readable
 2. Speed - Time Complexity - HOW FAST OUR CODE RUNS
 3. Memory - Space Complexity - HOW MUCH RAM OUR CODE USES
-THERE IS USUALLY A TRADE OFF BETWEEN SPEED AND MEMORY - TIME AND SPACE COMPLEXITY 
+THERE IS USUALLY A TRADE OFF BETWEEN SPEED AND MEMORY - TIME AND SPACE COMPLEXITY  
 
 When we grow bigger and bigger with our input, how much does our output slow down?
 Data Structures + Algorithms = Programs --- Choose the right ones!
@@ -26,7 +26,8 @@ Data Structures + Algorithms = Programs --- Choose the right ones!
 Heap = Where we store variables and values that we assign
 Stack = Where we keep track of our function calls
 What causes space complexity?
-Variables, Data Structures, Function Calls, Allocations.
+Variables, Data Structures, Function Calls, Allocations.    
+How much are we adding to our heap/stack ? 
 
 //  O(n)
 Linear Time.
