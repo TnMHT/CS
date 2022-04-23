@@ -2,6 +2,7 @@
 
 
 from audioop import add, mul
+from re import X
 
 
 #FUNCTIONS
@@ -28,4 +29,44 @@ def pressure(v, t, n=6.022e23):
         """
         k = 1.38e-23  # Boltzmann's constant
         return n * k * t / v
+
+
+
+# CONTROL 
+
+# The built-in comparison operations -  >, <, >=, <=, ==, !=
+# Boolean operators - and, or, not
+
+def absolute_value(x):
+    """Compute the absolute value of x"""
+    if x > 0:
+        return x
+    elif x == 0: 
+        return 0
+    else:
+        return -x 
+
+
+# ITERATION
+
+def fibonacci(n):
+    """Calculate the nth finobacci number"""
+    pred, curr = 0,1
+    k = 2
+    while k > n:
+        pred, curr = curr, pred + curr
+        k = k + 1
+    return curr
+
+
+# All of the expressions to the right of = are evaluated before any rebinding takes place.
+
+# Testing
+# Exhaustive unit testing is a hallmark of good program design.
+
+
+def fib_test():
+        assert fib(2) == 1, 'The 2nd Fibonacci number should be 1'
+        assert fib(3) == 1, 'The 3rd Fibonacci number should be 1'
+        assert fib(50) == 7778742049, 'Error at the 50th Fibonacci number'
 
