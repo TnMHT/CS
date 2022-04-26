@@ -70,3 +70,11 @@ def fib_test():
         assert fib(3) == 1, 'The 3rd Fibonacci number should be 1'
         assert fib(50) == 7778742049, 'Error at the 50th Fibonacci number'
 
+
+# HIGHER ORDER FUNCTIONS
+# Functions that manipulate functions are called higher-order functions.
+
+
+# Lexical scope. Locally defined functions also have access to the name bindings in the scope in which they are defined.
+
+
