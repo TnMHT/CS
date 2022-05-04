@@ -77,4 +77,8 @@ def fib_test():
 
 # Lexical scope. Locally defined functions also have access to the name bindings in the scope in which they are defined.
 
+# RECURSION 
+
+# A function is called recursive if the body of the function calls the function itself, either directly or indirectly. 
+
 
