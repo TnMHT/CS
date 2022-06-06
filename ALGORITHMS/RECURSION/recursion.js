@@ -12,6 +12,20 @@ STEPS
 1. Identify the base case
 2. Identify the recursive case
 3. Get closer and closer and return when needed. Usually having 2 returns
+
+
+Recursion vs Itteration
+- anything that can be done recursibvely can be done itteratively
+- Recursion can be DRY and readable
+- Recursion can be more memory intensive with larger stacks
+
+When to Use Recursion
+- BFS + DFS (searching)
+- Using a tree or converting something a tree, consider recursion
+
+1. Divide into a number of subproblems that are smaller instanves of the same problem
+2. each instance of the subproblem is identical in nature
+3. The solutions of each subproblem can be combined to solve the problem at hand.
 */
 
 
